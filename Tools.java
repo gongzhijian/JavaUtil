@@ -20,13 +20,23 @@ public class Tools {
         System.out.println(notEmpty(""));
         System.out.println(str2StrArray("abc,def,hig")[0]);
         System.out.println(date2Str(new Date()));
+
         Date old=new Date();
         try {
-            Thread.sleep(10000);
+            Thread.sleep(1500);
         } catch ( InterruptedException e ) {
             e.printStackTrace();
         }
         System.out.println(getTimes(date2Str(old)));
+
+        System.out.println(checkEmail("1295531995@qq.com"));
+        System.out.println(checkEmail("1295531995.@qq.com"));
+
+        System.out.println(checkMobileNumber("18468194782"));
+        System.out.println(checkMobileNumber("1852645"));
+
+        System.out.println(readTxtFile("../web/admin/config/EMAIL.txt"));
+
     }
 
     //生成六位随机数验证码
@@ -156,7 +166,7 @@ public class Tools {
     public static boolean checkMobileNumber(String mobileNumber){
         boolean flag=false;
         try {
-            Pattern regex=Pattern.compile("^(((13[0-9])|(15([0-3]|[5-9]))|(18[0,5-9]))\\d{8})|(0\\d{2}-\\d{8})|(0\\d{3}-\\d{7})$");
+            Pattern regex = Pattern.compile("^(((13[0-9])|(15([0-3]|[5-9]))|(18[0,5-9]))\\d{8})|(0\\d{2}-\\d{8})|(0\\d{3}-\\d{7})$");
             Matcher matcher=regex.matcher(mobileNumber);
             flag=matcher.matches();
         }catch ( Exception e ){
