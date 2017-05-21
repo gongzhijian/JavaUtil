@@ -1,5 +1,3 @@
-package com.util;
-
 import jp.sourceforge.qrcode.data.QRCodeImage;
 
 import java.awt.image.BufferedImage;

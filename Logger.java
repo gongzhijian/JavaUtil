@@ -1,5 +1,3 @@
-package com.util;
-
 /**
  * DateTime: 2016/9/17 14:03
  * 功能：Log4j的日志对象

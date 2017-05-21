@@ -1,5 +1,3 @@
-package com.util;
-
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 

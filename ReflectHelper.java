@@ -1,5 +1,3 @@
-package com.util;
-
 import java.lang.reflect.Field;
 
 /**

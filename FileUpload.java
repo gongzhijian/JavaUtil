@@ -1,5 +1,3 @@
-package com.util;
-
 import org.apache.commons.io.FileUtils;
 import org.springframework.web.multipart.MultipartFile;
 
