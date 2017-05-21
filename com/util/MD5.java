@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

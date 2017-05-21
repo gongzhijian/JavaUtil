@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;

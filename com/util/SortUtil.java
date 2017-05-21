@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 
 import org.apache.commons.beanutils.BeanComparator;

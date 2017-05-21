@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import jp.sourceforge.qrcode.data.QRCodeImage;
 

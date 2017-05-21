@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGImageEncoder;

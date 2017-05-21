@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import java.io.*;
 import java.nio.ByteBuffer;

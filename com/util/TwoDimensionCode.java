@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import com.swetake.util.Qrcode;
 import jp.sourceforge.qrcode.QRCodeDecoder;

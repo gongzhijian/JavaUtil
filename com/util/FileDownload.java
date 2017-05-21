@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedOutputStream;

@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 /**
  * DateTime: 2016/9/17 14:03

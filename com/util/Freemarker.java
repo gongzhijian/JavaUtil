@@ -1,4 +1,4 @@
-package com.fh.util;
+package com.util;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
